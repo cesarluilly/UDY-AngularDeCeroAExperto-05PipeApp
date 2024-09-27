@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-****************************************
+---
 
 ## Recursos del video
 
@@ -35,8 +35,7 @@ https://v17.angular.io/api?query=pipe
 https://primeng.org/
 
 ## Video 152 Instalar primeNG
+
 * Como estamos con angular15, por lo tanto tenemos que instalar primeng version 15
 * `npm install primeng@15 --save`
-* `npm install primeicons --save`
-
-
+* `npm install primeicons@^15 --save`
