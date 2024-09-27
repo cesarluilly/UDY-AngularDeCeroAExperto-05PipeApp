@@ -33,3 +33,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 https://v17.angular.io/api?query=pipe
 
 https://primeng.org/
+
+## Video 152 Instalar primeNG
+* Como estamos con angular15, por lo tanto tenemos que instalar primeng version 15
+* `npm install primeng@15 --save`
+* `npm install primeicons --save`
+
+
