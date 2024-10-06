@@ -39,3 +39,7 @@ https://primeng.org/
 * Como estamos con angular15, por lo tanto tenemos que instalar primeng version 15
 * `npm install primeng@15 --save`
 * `npm install primeicons@^15 --save`
+
+* Video 154 - PrimeNg Menu Bar
+
+![1728245957782](image/README/1728245957782.png)
