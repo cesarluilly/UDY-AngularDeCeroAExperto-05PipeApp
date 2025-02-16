@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pipeApp:build:production"
+              "buildTarget": "pipeApp:build:production"
             },
             "development": {
-              "browserTarget": "pipeApp:build:development"
+              "buildTarget": "pipeApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pipeApp:build"
+            "buildTarget": "pipeApp:build"
           }
         },
         "test": {
