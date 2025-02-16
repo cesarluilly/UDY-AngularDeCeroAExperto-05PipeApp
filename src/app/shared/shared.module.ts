@@ -15,7 +15,8 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
     PrimeNgModule
   ],
   exports: [
-    MenuComponent
+    MenuComponent,
+    CommonModule
   ]
 })
 export class SharedModule { }

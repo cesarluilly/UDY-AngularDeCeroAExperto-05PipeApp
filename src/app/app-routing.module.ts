@@ -1,10 +1,8 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { provideRouter } from '@angular/router';
+import { ApplicationConfig } from '@angular/core';
 
-const routes: Routes = [];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideRouter([])
+  ]
+};
